@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.right-column{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.conn{
+    display: flex;
+    flex-direction: column;
+    border: 5px whitesmoke solid;
+}
+
+.conn-header{
+    min-height: 40px;
+    background-color: darkslategray;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.conn-header-numconn{
+    margin: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.conn-header > p{
+    margin: 10px;
+    color: white;
+}
+
+.conn-footer-req{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.conn-footer-conn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.conn-footer-conn > svg{
+    margin: 0px 10px;
+}
+
+.conn-footer-boxes{
+    margin: 10px;
+}
+
+.conn-footer-boxes > svg{
+    margin: 2px;
+}
+
+.friends{
+    margin-top: 20px;
+    border: 5px whitesmoke solid;
+}
+
+.friends-header{
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    background-color: darkslategray;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.friends-header > p{
+    margin: 10px;
+    color: white;
+}
+
+.friends-header-number{
+    margin: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.friends-header-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.friend-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.friend-content > svg{
+    margin: 10px 10px;
+}
+
+.friends-footer{
+    display: flex;
+    border-top: 5px whitesmoke solid;
+    align-items: center;
+    justify-content: left;
+}
+
+.friends-footer > a{
+    margin: 10px 15px;
+    color: royalblue;
+    font-size: 20px;
+}
+

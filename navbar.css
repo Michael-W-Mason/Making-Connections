@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    flex-wrap: nowrap;
+    min-height: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    z-index: 2;
+}
+
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Logo{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-options > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+.navbar-options > ul > li{
+    list-style: none;
+}
+
+.navbar-options > ul > li > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+#signout{
+    background-color: darkturquoise;
+    font-family: sans-serif;
+    min-height: 30px;
+    width: 120px;
+    color: white;
+}

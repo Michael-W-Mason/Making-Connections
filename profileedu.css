@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.left-column{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex: 2;
+    padding-right: 20px;
+}
+
+.prof{
+    display: flex;
+    flex-direction: column;
+    border: 5px whitesmoke solid;
+}
+
+.prof-top{
+    min-height: 100px;
+    background-color: lightseagreen;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.prof-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.prof-icon{
+    max-height: 50px;
+}
+
+.prof-icon > .bi-person-circle{
+    position: relative;
+    top: -50px;
+    background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.prof-name{
+    padding-top: 6px;
+    font-size: 25px;
+}
+
+.prof-location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prof-location > h1{
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.prof-desc{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.prof-desc > h1{
+    width: 75%;
+    font-size: 20px;
+}
+
+.prof-sett{
+    margin-top: 10px;
+    color: royalblue;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.prof-sett > a{
+    color: royalblue;
+}
+
+.edu{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 5px whitesmoke solid;
+}
+
+.edu-header{
+    background-color: darkslategray;
+    color: white;
+    border-bottom: 5px whitesmoke solid;
+}
+
+.edu-header > h1{
+    margin: 20px 20px;
+}
+
+.edu-body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.edu-body-content > h1{
+    color: black;
+    margin: 10px 0px;
+}
+
+.edu-body-content > h2{
+    color: darkgray;
+    margin: 5px 0px;
+}
+
+.edu-body-content > h3{
+    color: black;
+    margin: 15px 0px;
+}
